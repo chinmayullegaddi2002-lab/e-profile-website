@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | B.Tech CSE | IoT & Data Science</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Hi, I'm [Your Name]">Hi, I'm [Your Name]</h1>
+                <p class="typing-text"></p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://huggingface.co/yourusername" target="_blank">🤗</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="assets/profile.jpg" alt="Profile" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect fill=%22%23333%22 width=%22300%22 height=%22300%22/%3E%3Ctext fill=%22%23fff%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2220%22%3EYour Photo%3C/text%3E%3C/svg%3E'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a <strong>B.Tech Computer Science Engineering</strong> student with a robust foundation in both <span class="highlight">software development</span> and <span class="highlight">hardware integration</span>.</p>
+                <p>I am passionate about building end-to-end systems—from programming IoT microcontrollers, to developing interactive data analytics dashboards that reverse-engineer complex datasets.</p>
+                <p>I thrive on creating practical tools that solve real-world problems, bridging the gap between physical hardware and intelligent software systems.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>IoT Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Data Dashboards</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>ML Models</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-chart-bar"></i> Data & Visualization</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Plotly</span>
+                    <span class="skill-tag">Matplotlib</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-microchip"></i> Hardware & Systems</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">ESP32</span>
+                    <span class="skill-tag">Arduino</span>
+                    <span class="skill-tag">IoT Development</span>
+                    <span class="skill-tag">Sensors</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Jupyter</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">🌡️</div>
+                <h3>IoT Environmental Monitor</h3>
+                <p>ESP32-based system collecting temperature, humidity, and air quality data. Real-time dashboard with Plotly visualizations.</p>
+                <div class="project-tech">
+                    <span>ESP32</span><span>Python</span><span>Plotly</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">📊</div>
+                <h3>Data Analytics Dashboard</h3>
+                <p>Interactive dashboard reverse-engineering complex datasets using Pandas and Plotly for actionable insights.</p>
+                <div class="project-tech">
+                    <span>Python</span><span>Pandas</span><span>Plotly</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">🤖</div>
+                <h3>Smart Home Automation</h3>
+                <p>Arduino-powered home automation system with mobile control interface and energy monitoring capabilities.</p>
+                <div class="project-tech">
+                    <span>Arduino</span><span>C</span><span>IoT</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Dashboard Demo -->
+    <section id="dashboard" class="dashboard">
+        <h2 class="section-title">Live Data Dashboard Demo</h2>
+        <div class="dashboard-container">
+            <div id="plotly-chart"></div>
+            <p class="dashboard-note">Interactive Plotly visualization - Sample IoT sensor data analysis</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>your.email@example.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Your Location</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. Built with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
