@@ -1,10 +1,10 @@
 // Typing animation
 const roles = [
-    "B.Tech CSE Student",
-    "IoT Developer",
-    "Data Analyst",
-    "Embedded Systems Engineer",
-    "Full-Stack Developer"
+    "CSIT Student",
+    "Python Programmer",
+    "Web Developer",
+    "AI Enthusiast",
+    "Open Source Learner"
 ];
 
 let roleIndex = 0;
